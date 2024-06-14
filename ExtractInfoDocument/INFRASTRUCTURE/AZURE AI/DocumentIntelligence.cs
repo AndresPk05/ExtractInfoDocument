@@ -17,8 +17,8 @@ public class DocumentIntelligence : IDocumentIntelligence
     public DocumentIntelligence(IConfiguration config, IDocument document)
     {
         _config = config;
-        _endpoint = _config["Azure:EndPoint"];
-        _key = _config["Azure:Key1"];
+        _endpoint = _config["AzureEndPoint"];
+        _key = _config["AzureKey1"];
         _credential = new AzureKeyCredential(_key);
         _client = new DocumentIntelligenceClient(new Uri(_endpoint), _credential);
         _document = document;
