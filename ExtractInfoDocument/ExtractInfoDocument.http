@@ -1,0 +1,6 @@
+@ExtractInfoDocument_HostAddress = http://localhost:5009
+
+GET {{ExtractInfoDocument_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
