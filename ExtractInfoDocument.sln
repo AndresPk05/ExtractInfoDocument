@@ -5,8 +5,6 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractInfoDocument", "ExtractInfoDocument\ExtractInfoDocument.csproj", "{7CE424B9-F498-4CBD-9F6D-7A9ECDC8C631}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "monitoring", "monitoring\monitoring.sqlproj", "{9F7E2666-9BA7-4DF9-B2D1-8679502E37B4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +15,6 @@ Global
 		{7CE424B9-F498-4CBD-9F6D-7A9ECDC8C631}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE424B9-F498-4CBD-9F6D-7A9ECDC8C631}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE424B9-F498-4CBD-9F6D-7A9ECDC8C631}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F7E2666-9BA7-4DF9-B2D1-8679502E37B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F7E2666-9BA7-4DF9-B2D1-8679502E37B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F7E2666-9BA7-4DF9-B2D1-8679502E37B4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{9F7E2666-9BA7-4DF9-B2D1-8679502E37B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F7E2666-9BA7-4DF9-B2D1-8679502E37B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F7E2666-9BA7-4DF9-B2D1-8679502E37B4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
